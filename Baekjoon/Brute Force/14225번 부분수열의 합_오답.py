@@ -12,7 +12,6 @@ itertools.combinations - https://stackoverflow.com/questions/464864/how-to-get-a
 """
 
 import itertools
-from collections import Counter
 
 n = int(input())
 s = list(map(int, input().split()))
@@ -25,21 +24,14 @@ def sum_of_subsequence(array):
             combination.append(sum(j))
     return combination
 
-def find_missing_num(array):
+def find_missing_num(array): #[1,2,3,5]
     i = 1
-    for num in array:
+    for num in array: # 1-1 2-2 3-3 5-4
         if num > i:
             break
         i += 1    
     print(i)
 
 subsequence_s = sum_of_subsequence(s)
-# print(subsequence_s)
 sorted_s = sorted(subsequence_s)
-# print(sorted_s)
-# print(list(set(sorted_s)))
-# find_missing_num(set(sorted_s))
-
-check_num = [i for i in range(1, sorted_s[-1]+2)] 
-result = Counter(check_num) - Counter(sorted_s) 
-print(list(result.keys())[0])
+find_missing_num(set(sorted_s))
