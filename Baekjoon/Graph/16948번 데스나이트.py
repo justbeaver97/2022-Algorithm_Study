@@ -8,6 +8,14 @@
 reference
 이차원 배열 한줄로 만들기 - https://dojang.io/mod/page/view.php?id=2293
 bfs 최단거리 구하기 - https://steadily-worked.tistory.com/497 
+
+처음에 잘못 생각했던 점 
+1. count를 해서 queue가 실행되는 횟수를 구하려고 했음
+이는 다시 시작하는 queue가 실행될때마다 count=0으로 초기화를 시켜줘야 했는데 안 해줘서, 총 queue가 돌아간 횟수가 계산됨
+
+2. 다시 시작하는 queue가 실행될때마다 초기화 시키기 위해?
+그냥 arr 자체를 count로 사용해버렸음. 이렇게 되면 다시 queue가 돌더라도 새로운 값으로 arr가 update 되기 때문.
+그리고 1번째 step으로 갈 수 있는 모든 곳들은 1로 표시, 2번째 step으로 갈 수 있는 모든 곳들은 2로 표시.... 되면서 내가 원하는 위치가 몇번째 step만에 갈 수 있는지 알 수 있음
 """
 
 import collections 
@@ -35,3 +43,4 @@ r1, c1, r2, c2 = map(int, input().split())
 arr = [[0] * n for _ in range(n)]
 dir = [[-2,-1],[-2,1],[0,-2],[0,2],[2,-1],[2,1]]
 print(bfs(r1,c1))
+
