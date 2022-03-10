@@ -9,6 +9,8 @@
 
 refercence
 itertools.combinations - https://stackoverflow.com/questions/464864/how-to-get-all-possible-combinations-of-a-list-s-elements 
+
+오답 이유 - https://www.acmicpc.net/board/view/85746#comment-139115
 """
 
 import itertools
@@ -33,5 +35,11 @@ def find_missing_num(array): #[1,2,3,5]
     print(i)
 
 subsequence_s = sum_of_subsequence(s)
-sorted_s = sorted(subsequence_s)
-find_missing_num(set(sorted_s))
+
+# 틀린 풀이
+# sorted_s = sorted(subsequence_s)
+# find_missing_num(set(sorted_s))
+
+# 맞는 풀이
+sorted_s = sorted(set(subsequence_s))
+find_missing_num(sorted_s)
