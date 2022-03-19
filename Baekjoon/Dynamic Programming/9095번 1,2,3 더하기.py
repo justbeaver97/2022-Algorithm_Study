@@ -7,6 +7,8 @@
 정수 n이 주어졌을 때, n을 1, 2, 3의 합으로 나타내는 방법의 수를 구하는 프로그램을 작성하시오.
 """
 
+# 방법1 - 68ms
+
 T = int(input())
 
 add_case = [0,1,2,4]
@@ -18,3 +20,21 @@ for i in range(4,11):
 for _ in range(T):
     n = int(input())
     print(add_case[n])
+
+"""
+# 방법2 - 76ms
+
+T = int(input())
+
+add_case = [0]*11
+add_case[1] = 1
+add_case[2] = 2
+add_case[3] = 4
+
+for i in range(4,11):
+    add_case[i] = add_case[i-1]+add_case[i-2]+add_case[i-3]
+
+for _ in range(T):
+    n = int(input())
+    print(add_case[n])
+"""
