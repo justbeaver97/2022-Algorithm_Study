@@ -5,6 +5,7 @@
 ## Object Detection
 [You Only Look Once: Unified, Real-Time Object Detection](https://yehyunsuh.notion.site/You-Only-Look-Once-Unified-Real-Time-Object-Detection-274d0cc2262a4d49b0f5b1b7f0c7784d)<br>
 [YOLO9000: Better, Faster, Stronger](https://yehyunsuh.notion.site/YOLO9000-Better-Faster-Stronger-ce851333837b4a158e8a619ea3ccc2b8)<br>
+[Distance-IoU Loss: Faster and Better Learning for Bounding Box Regression](https://yehyunsuh.notion.site/Distance-IoU-Loss-Faster-and-Better-Learning-for-Bounding-Box-Regression-e81574a06bf54aab94f8958ac81a2f0d)<br>
 
 ## Segmentation
 ### Instance Segmentation
