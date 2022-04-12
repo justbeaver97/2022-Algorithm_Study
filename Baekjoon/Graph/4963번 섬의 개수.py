@@ -12,7 +12,6 @@ sys.setrecursionlimit(10**6)
 input = sys.stdin.readline
 
 def DFS(i,j):
-    global count
     if i<0 or j<0 or i>=h or j>=w:
         return False
     if arr[i][j] == 1:
