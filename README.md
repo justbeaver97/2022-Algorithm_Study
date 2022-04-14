@@ -13,9 +13,13 @@
 [Weighted boxes fusion: Ensembling boxes from different object detection models](https://yehyunsuh.notion.site/Weighted-boxes-fusion-Ensembling-boxes-from-different-object-detection-models-5a02aab3b26545d2858faed2d968eaae)
 
 ## Segmentation
+### Semantic Segmentation
+- Model<br>
+[DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs](https://yehyunsuh.notion.site/DeepLab-Semantic-Image-Segmentation-with-Deep-Convolutional-Nets-Atrous-Convolution-and-Fully-Con-b1b02fefdfa14123b62061a2fe6f1b7f)<br>
+
 ### Instance Segmentation
 - Model<br>
-[YOLACT: Real-time Instance Segmentation ](https://yehyunsuh.notion.site/YOLACT-Real-time-Instance-Segmentation-08c35a1943cd4276afb5d7d736623d96)<br>
+[YOLACT: Real-time Instance Segmentation](https://yehyunsuh.notion.site/YOLACT-Real-time-Instance-Segmentation-08c35a1943cd4276afb5d7d736623d96)<br>
 
 
 
