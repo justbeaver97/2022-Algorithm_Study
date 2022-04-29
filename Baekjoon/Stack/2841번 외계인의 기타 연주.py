@@ -2,12 +2,6 @@
 2841번 - https://www.acmicpc.net/problem/2841
 
 외계인의 기타 연주
-5 15
-2 8
-2 10
-2 12
-2 10
-2 5
 """
 
 import sys
