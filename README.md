@@ -16,30 +16,8 @@
 ### Semantic Segmentation
 - Model<br>
 [DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs](https://yehyunsuh.notion.site/DeepLab-Semantic-Image-Segmentation-with-Deep-Convolutional-Nets-Atrous-Convolution-and-Fully-Con-b1b02fefdfa14123b62061a2fe6f1b7f)<br>
+[Searching for MobileNetV3](https://yehyunsuh.notion.site/Searching-for-MobileNetV3-8b01b7bce7f34d9cb2653313582ce157)<br>
 
 ### Instance Segmentation
 - Model<br>
 [YOLACT: Real-time Instance Segmentation](https://yehyunsuh.notion.site/YOLACT-Real-time-Instance-Segmentation-08c35a1943cd4276afb5d7d736623d96)<br>
-
-
-
-<!--
-## Algorithm Study
-### Brute Force
-[BOJ 14225번 부분수열의 합](https://www.acmicpc.net/problem/14225)
-
-### Graph
-- DFS<br>
-[BOJ 11403번 경로 찾기](https://www.acmicpc.net/problem/14225)
-
-- BFS<br>
-[BOJ 16948번 데스나이트](https://www.acmicpc.net/problem/16948)
-
-### Math
-- GCD<br>
-[BOJ 9613번 GCD 합](https://www.acmicpc.net/problem/9613)
-[BOJ 3036번 링](https://www.acmicpc.net/problem/3036)
-
-- Implement<br>
-[BOJ 1110번 더하기 사이클](https://www.acmicpc.net/problem/1110)
--->
