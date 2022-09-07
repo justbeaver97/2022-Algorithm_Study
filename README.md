@@ -1,6 +1,10 @@
-# Paper Review
+# Paper & Article Review
 ## Data Visualization
 [Toward a Deeper Understanding of the Role of Interaction in Information Visualization](https://yehyunsuh.notion.site/Toward-a-Deeper-Understanding-of-the-Role-of-Interaction-in-Information-Visualization-1dbfe64627fd40a4bc84153e6bbaec68)<br>
+
+## Cloud Computing
+[A View of Cloud Computing](https://yehyunsuh.notion.site/A-View-of-Cloud-Computing-120e3253b0bf4ef3b6c203a60b27a4db)<br>
+[The Case for VM-Based Cloudlets in Mobile Computing](https://yehyunsuh.notion.site/The-Case-for-VM-Based-Cloudlets-in-Mobile-Computing-be90cf8b97a24a44a2fe3aa6be756898)<br>
 
 ## Object Detection
 - Model<br>
